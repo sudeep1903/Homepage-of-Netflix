@@ -1,0 +1,151 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+:root {
+--primary-color: #e90b0b;
+--secondary-color: rgba(0, 0, 0, 0.6);
+--shadow-color: black;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+color: white;
+background-color: black;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.site-header {
+width: 100%;
+height: 100vh;
+position: relative;
+overflow: hidden;
+}
+
+.navbar {
+width: 100%;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2rem;
+}
+
+.logo {
+width: 12rem;
+}
+
+.nav-items {
+display: flex;
+align-items: center;
+}
+
+.nav-items a {
+margin-left: 2rem;
+font-size: 1.5rem;
+}
+
+.nav-items a:hover {
+color: var(--primary-color);
+}
+
+.banner {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner-content {
+text-align: center;
+}
+
+.banner h1 {
+font-size: 4rem;
+margin-bottom: 1rem;
+line-height: 1.2;
+}
+
+.banner p {
+font-size: 1.5rem;
+margin-bottom: 2rem;
+}
+
+.banner form {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner input {
+width: 30rem;
+height: 3rem;
+padding: 0 1rem;
+outline: none;
+border: none;
+border-radius: 4px;
+background-color: rgba(255, 255, 255, 0.1);
+color: white;
+}
+
+.banner button {
+padding: 0 1.5rem;
+margin-left: 1rem;
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: var(--primary-color);
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.showcase {
+width: 100%;
+padding: 4rem;
+background-color: rgba(0, 0, 0, 0.3);
+text-align: center;
+}
+
+.showcase h2 {
+font-size: 2.5rem;
+margin-bottom: 2rem;
+}
+
+.showcase p {
+font-size: 1.3rem;
+margin-bottom: 3rem;
+}
+
+.benefits {
+padding: 4rem;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+.benefits h2 {
+font-size: 2rem;
+margin-bottom: 4rem;
+}
+
+.benefits img {
+width: 8rem;
+margin-bottom: 1rem;
+}
+
+.benefits p {
+font-size: 1.
